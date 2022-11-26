@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myvertex-rc
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     app: mynginx
     Version: 2.6.2
