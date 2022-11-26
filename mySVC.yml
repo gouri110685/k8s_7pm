@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: vertex-svc
   lables:
-     app: mynginx
+    app: mynginx
 spec:
   type: NodePort
   ports:
