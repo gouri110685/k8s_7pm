@@ -6,12 +6,10 @@ spec:
   replicas: 5
   selector:
     app: myvertexapp
-    Version: 2.6.2
   template:
     metadata:
       labels:
         app: myvertexapp
-        Version: 2.6.2
     spec:
       containers:
         - name: mynginx-container
