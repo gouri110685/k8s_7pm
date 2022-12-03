@@ -8,6 +8,7 @@ spec:
     app: myvertexapp
   template:
     metadata:
+      name: complexpod
       labels:
         app: myvertexapp
     spec:
