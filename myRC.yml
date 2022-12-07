@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myvertex-rc
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     app: myvertexapp
   template:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mynginx-container
-          image: gouriboga/myjavaimage18nov22:1
+          image:  gouriboga/myjavaimage7dec22:1
           ports:
             - containerPort: 8080
