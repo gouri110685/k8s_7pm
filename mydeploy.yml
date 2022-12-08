@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: deployment-container
-          image: gouriboga/myjavaimage7dec22:2
+          image: gouriboga/myjavaimage7dec22:1
           ports:
           - containerPort: 8080
